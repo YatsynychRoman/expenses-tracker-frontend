@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "src/",
+    "noImplicitAny": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "pretty": true,
+    "target": "esnext",
+    "jsx": "preserve",
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules"]
+}
