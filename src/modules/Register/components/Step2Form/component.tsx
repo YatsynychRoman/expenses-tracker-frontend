@@ -78,6 +78,10 @@ const Step2FormComponent = (): React.ReactElement => {
         {errors.currency && (
           <Styled.Error>{(errors.currency as FieldError).message}</Styled.Error>
         )}
+        <Styled.Label>
+          Please note, that changing currency in the future will affect your
+          expenses because of the exchange rate.
+        </Styled.Label>
       </Styled.InputGroup>
 
       <Styled.ButtonGroup>

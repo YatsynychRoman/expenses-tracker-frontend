@@ -7,7 +7,7 @@ interface IFormContainerProps {
 export const Container = styled.div`
   max-width: 600px;
   margin-left: 35rem;
-  margin-top: 20rem;
+  margin-top: 18rem;
   padding: 4rem;
 `;
 
